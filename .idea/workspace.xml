@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa70fa95-a3e4-4179-84c0-b70cb9c5a1e4" name="Default Changelist" comment="" />
+    <list default="true" id="fa70fa95-a3e4-4179-84c0-b70cb9c5a1e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GuiaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GuiaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Preguntas_Detalle_Guia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Preguntas_Detalle_Guia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/logoColorim.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/images/logoColorim.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Rhumanos/cues1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Rhumanos/cues1.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Rhumanos/cues2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Rhumanos/cues2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Rhumanos/guiaR3.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Rhumanos/guiaR3.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +23,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,6 +137,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1k6zGNdmOTU3x6jBItvOBdlHaym" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -128,9 +145,11 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yito" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -170,57 +189,23 @@
       <workItem from="1607711946865" duration="1356000" />
       <workItem from="1607969321915" duration="34000" />
       <workItem from="1608051871003" duration="516000" />
+      <workItem from="1608055536128" duration="4100000" />
+      <workItem from="1608075825139" duration="1583000" />
+      <workItem from="1608090985391" duration="605000" />
+      <workItem from="1608228572133" duration="15567000" />
+      <workItem from="1608302780800" duration="4284000" />
+      <workItem from="1608311835587" duration="71000" />
+      <workItem from="1608556244636" duration="5670000" />
+      <workItem from="1608580002409" duration="36000" />
+      <workItem from="1609969310782" duration="92000" />
+      <workItem from="1609969501432" duration="7000" />
+      <workItem from="1610574514200" duration="79000" />
+      <workItem from="1610639901436" duration="1799000" />
+      <workItem from="1610747413781" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="562" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605036814565">
-      <screen x="0" y="23" width="1920" height="1005" />
-    </state>
-    <state x="562" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1005@0.23.1920.1005" timestamp="1605036814565" />
-    <state x="697" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605493592454">
-      <screen x="0" y="23" width="1920" height="1004" />
-    </state>
-    <state x="697" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1004@0.23.1920.1004" timestamp="1605493592454" />
-    <state x="698" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605894323616">
-      <screen x="0" y="23" width="1920" height="1004" />
-    </state>
-    <state x="698" y="287" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1920.1004@0.23.1920.1004" timestamp="1605894323616" />
-    <state width="1256" height="255" key="GridCell.Tab.0.bottom" timestamp="1605038067367">
-      <screen x="0" y="23" width="1920" height="1005" />
-    </state>
-    <state width="1256" height="255" key="GridCell.Tab.0.bottom/0.23.1920.1005@0.23.1920.1005" timestamp="1605038067367" />
-    <state width="1256" height="255" key="GridCell.Tab.0.center" timestamp="1605038067367">
-      <screen x="0" y="23" width="1920" height="1005" />
-    </state>
-    <state width="1256" height="255" key="GridCell.Tab.0.center/0.23.1920.1005@0.23.1920.1005" timestamp="1605038067367" />
-    <state width="1256" height="255" key="GridCell.Tab.0.left" timestamp="1605038067366">
-      <screen x="0" y="23" width="1920" height="1005" />
-    </state>
-    <state width="1256" height="255" key="GridCell.Tab.0.left/0.23.1920.1005@0.23.1920.1005" timestamp="1605038067366" />
-    <state width="1256" height="255" key="GridCell.Tab.0.right" timestamp="1605038067367">
-      <screen x="0" y="23" width="1920" height="1005" />
-    </state>
-    <state width="1256" height="255" key="GridCell.Tab.0.right/0.23.1920.1005@0.23.1920.1005" timestamp="1605038067367" />
-    <state x="684" y="242" key="NewPhpClassDialog" timestamp="1605908443327">
-      <screen x="0" y="23" width="1920" height="1004" />
-    </state>
-    <state x="684" y="242" key="NewPhpClassDialog/0.23.1920.1004@0.23.1920.1004" timestamp="1605908443327" />
-    <state x="783" y="452" key="NewPhpFileDialog" timestamp="1605908455400">
-      <screen x="0" y="23" width="1920" height="1004" />
-    </state>
-    <state x="783" y="452" key="NewPhpFileDialog/0.23.1920.1004@0.23.1920.1004" timestamp="1605908455400" />
-    <state x="783" y="452" key="NewPhpFileDialog/0.23.1920.1005@0.23.1920.1005" timestamp="1605489364948" />
-    <state x="625" y="243" key="run.anything.popup" timestamp="1605283371259">
-      <screen x="0" y="23" width="1920" height="1005" />
-    </state>
-    <state x="625" y="243" key="run.anything.popup/0.23.1920.1005@0.23.1920.1005" timestamp="1605283371259" />
-    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1605212243260">
-      <screen x="0" y="23" width="1920" height="1005" />
-    </state>
-    <state x="625" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1920.1005@0.23.1920.1005" timestamp="1605212243260" />
   </component>
 </project>

@@ -106,17 +106,22 @@
                     </ul>
             </ul>
 
-            <!--ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-                <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+
+            <ul class="navbar-nav ml-auto">
+                <!--li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li-->
                 <li class="nav-item dropdown">
-                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Dropdown right </a>
+                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> Catalogos </a>
                     <ul class="dropdown-menu dropdown-menu-right">
-                        <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-                        <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                        @foreach($catalogos as $catalogo)
+
+                        <li><a class="dropdown-item" href="{{$catalogo->VISTA}}">{{$catalogo->NOM_CATALOGO}}</a></li>
+                    @endforeach
+                        <!--li><a class="dropdown-item" href="#"> Areas </a></li>
+                        <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li-->
                     </ul>
                 </li>
-            </ul-->
+            </ul>
         </div> <!-- navbar-collapse.// -->
     </nav>
 

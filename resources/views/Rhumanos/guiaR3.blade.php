@@ -867,7 +867,7 @@
         caso, clínicos, capaces de evaluar el entorno organizacional y el efecto a la salud de los trabajadores para
         establecer las medidas de control y seguimiento de estos factores. Por ejemplo, la identificación del síndrome
         de estar quemado por el trabajo (burnout) o acoso psicológico (mobbing), entre otros.</p>
-    <p><a href="#" class="btn btn-success"> &oplus; Aplicar Guia de Referencia III</a>
+    <p><a href="cues3" class="btn btn-success"> &oplus; Aplicar Guia de Referencia III</a>
         <a href="#" class="btn btn-info"> &checkmark; Consultar Guia de Referencia III</a></p>
 
     <div class="fixed-bottom">

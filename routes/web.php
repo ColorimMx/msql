@@ -5,6 +5,7 @@ use \App\Http\Controllers\AreaController;
 use \App\Http\Controllers\EmpleadoController;
 use \App\Http\Controllers\GuiaController;
 use \App\Http\Controllers\Nom35Controller;
+use \App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,19 +17,19 @@ use \App\Http\Controllers\Nom35Controller;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('home');
-});
+});*/
+Route::get('/',[HomeController::class, 'index']);
 Route::get('guias',[GuiaController::class, 'index']);
 Route::get('nom35',[Nom35Controller::class, 'home']);
 Route::get('cues1',[GuiaController::class, 'gric1',]);
 Route::get('cues2',[GuiaController::class, 'gric2',]);
+Route::get('cues3',[GuiaController::class, 'gric3',]);
 /*Route::get('nom35', function () {
     return view('Rhumanos/nom35');
 });*/
-Route::get('guiaref1', function () {
-    return view('Rhumanos/guiaR1');
-});
+
 Route::get('guiaref2', function () {
     return view('Rhumanos/guiaR2');
 });
@@ -55,3 +56,12 @@ Route::get('area/{area}',[AreaController::class,'show']);
 Route::get('empleados',[EmpleadoController::class, 'index']);
 Route::get('empleado/create',[EmpleadoController::class, 'create']);
 Route::get('empleado/{empleado}',[EmpleadoController::class,'show']);
+
+//Guia de Referencias
+
+//Guia de Referencia I
+Route::get('guiaref1', function () {
+    return view('Rhumanos/guiaR1');
+});
+
+Route::post('guiaref1',[GuiaController::class,'storeGrI'])->name('guiaref1.storeGrI');
