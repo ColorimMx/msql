@@ -6,6 +6,8 @@ use \App\Http\Controllers\EmpleadoController;
 use \App\Http\Controllers\GuiaController;
 use \App\Http\Controllers\Nom35Controller;
 use \App\Http\Controllers\HomeController;
+use \App\Http\Controllers\GuiaRVController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,18 +32,16 @@ Route::get('cues3',[GuiaController::class, 'gric3',]);
     return view('Rhumanos/nom35');
 });*/
 
-Route::get('guiaref2', function () {
+Route::get('guia2', function () {
     return view('Rhumanos/guiaR2');
 });
-Route::get('guiaref3', function () {
+Route::get('guia3', function () {
     return view('Rhumanos/guiaR3');
 });
-Route::get('guiaref4', function () {
+Route::get('guia4', function () {
     return view('Rhumanos/guiaR4');
 });
-Route::get('guiaref5', function () {
-    return view('Rhumanos/guiaR5');
-});
+
 //Cuestionarios
 
 
@@ -60,8 +60,24 @@ Route::get('empleado/{empleado}',[EmpleadoController::class,'show']);
 //Guia de Referencias
 
 //Guia de Referencia I
-Route::get('guiaref1', function () {
+Route::get('guia1', function () {
     return view('Rhumanos/guiaR1');
 });
 
-Route::post('guiaref1',[GuiaController::class,'storeGrI'])->name('guiaref1.storeGrI');
+Route::post('guiaI/create',[GuiaController::class,'storeGrI'])->name('guiaref1.storeGrI');
+
+//Guia de Referencia II
+
+//Guia de Referencia III
+
+//Guia de Referencia IV
+
+//Guia de Referencia V
+
+Route::get('guia5', function () {
+    return view('Rhumanos/guiaR5');
+});
+Route::get('guia5/datos',[GuiaRVController::class, 'index'])->name('guiaV.index');
+Route::get('guia5/create',[GuiaRVController::class, 'create'])->name('guiaV.create');
+Route::get('guia5/{empleado}',[GuiaRVController::class,'show'])->name('guiaV.show');
+

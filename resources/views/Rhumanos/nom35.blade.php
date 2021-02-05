@@ -6,17 +6,17 @@
     @parent
     <ul class="navbar-nav">
 
-        <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown"> NOM 35 STPS </a>
+        <a class="nav-link  dropdown-toggle" data-toggle="dropdown"> NOM 35 STPS </a>
         <ul class="dropdown-menu">
             <?php
             $i = 1;
             ?>
             @foreach($lguia as $lguia)
-            <li><a class="dropdown-item" href="guiaref{{ $i++ }}">{{$lguia->NOM_REFERENCIA_GUIA}}</a></li>
+            <li><a class="dropdown-item" href="guia{{ $i++ }}">{{$lguia->NOM_REFERENCIA_GUIA}}</a></li>
             <!--li><a class="dropdown-item" href="guiaref2"> Guia de Referencia II</a></li>
             <li><a class="dropdown-item" href="guiaref3"> Guia de Referencia III</a></li>
             <li><a class="dropdown-item" href="guiaref4"> Guia de Referencia IV</a></li>
-            <li><a class="dropdown-item" href="guiaref5"> Guia de Referencia V</a></li-->
+            <li><a class="dropdown-item" href="guiaV"> Guia de Referencia V</a></li-->
             @endforeach
         </ul>
     </ul>

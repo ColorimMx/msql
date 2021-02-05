@@ -6,7 +6,7 @@
     <meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
     <meta name="description" content="Bootstrap navbar examples for any type of project, Bootstrap 4" />
 
-    <title>Colorantes Mariposa - @yield('title')</title>
+    <title> @yield('title')</title>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -15,6 +15,7 @@
     <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
 
 
     <script type="text/javascript">
@@ -99,8 +100,9 @@
 <header class="section-header" >
     <div class="container">
         <div class="row py-4">
-            <div class="col-sm-6"><h2>Colorantes Mariposa API</h2></div>
+            <div class="col-sm-6"><h2> @yield('head')</h2></div>
             <div class="col-sm-6"><img src="../resources/images/logoColorim.png" class="img-fluid img-thumbnail" ></div>
+
         </div>
 
 
@@ -130,8 +132,8 @@
         @yield('content')
 
     </section>
-
+    <div class="fixed-bottom">
+    </div>
 </div><!-- container //  -->
-
 </body>
 </html>

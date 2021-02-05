@@ -15,7 +15,7 @@
 <p>
     <a href="#" class="btn btn-success"> &oplus; Aplicar Guia de Referencia V</a>
 
-    <a href="#" class="btn btn-info"> &checkmark; Consultar Guia de Referencia V</a>
+    <a href="guia5/datos" class="btn btn-info"> &checkmark; Consultar Guia de Referencia V</a>
 
 </p>
     <div class="fixed-bottom">
