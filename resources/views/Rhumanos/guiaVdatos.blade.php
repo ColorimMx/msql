@@ -411,7 +411,7 @@
                 </div>
             </div>
             <br>
-            <p class=" bg-dark text-white">Tipo de personal:</p>
+            <p class="bg-dark text-white">Tipo de personal:</p>
             <div class="row">
                 <div class="col">
                     <div class="form-check">
@@ -446,7 +446,7 @@
                 </div>
             </div>
             <br>
-            <p class=" bg-dark text-white">Tipo de personal:</p>
+            <p class=" bg-dark text-white">Tipo de jornada de trabajo:</p>
             <div class="row">
                 <div class="col">
                     <div class="form-check">
@@ -480,6 +480,33 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <p class=" bg-dark text-white">Realiza rotación de turnos:</p>
+            <div class="row">
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="rotaChkbox1" value=""
+                               @if($empleado->ROTACION_TURNO == "1")
+                                   checked="checked" required
+                               @else
+                                   disabled="disabled"
+                               @endif>
+                        <label class="form-check-label" for="rotaChkbox1">Si</label>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="rotaChkbox2" value=""
+                               @if($empleado->ROTACION_TURNO == "0")
+                               checked="checked" required
+                               @else
+                               disabled="disabled"
+                            @endif>
+                        <label class="form-check-label" for="rotaChkbox1">No</label>
+                    </div>
+                </div>
+            </div>
+            {{$antiguedad}}
             @endforeach
         </form>
     </div>

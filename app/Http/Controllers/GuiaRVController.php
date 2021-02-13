@@ -34,6 +34,7 @@ class GuiaRVController extends Controller
 
         $edad = \Carbon\Carbon::parse($edades->F_NACIMIENTO)->diffForHumans();
 
+
         if($edad >= 15 && $edad <= 19){
             $edad = 1;
         }elseif($edad >= 20 && $edad <= 24){
@@ -73,7 +74,34 @@ class GuiaRVController extends Controller
         else{
             $edad = 12;
         }
-        return view('Rhumanos/guiaVdatos',  compact('empleados','lguia','cEstados','edad'));
+        $antiguedad = \Carbon\Carbon::parse($edades->F_INGRESO)->diffForHumans();
+
+        if($antiguedad < 1 ){
+            $antiguedad = 1;
+
+        }elseif($antiguedad == 1 ){
+            $antiguedad = 2;
+
+        }elseif($antiguedad > 1 && $antiguedad <= 4){
+            $antiguedad = 3;
+
+        }elseif($antiguedad >= 5 && $antiguedad <= 9){
+            $antiguedad = 4;
+
+        }elseif($antiguedad >= 10 && $antiguedad <= 14){
+            $antiguedad = 5;
+
+        }
+        elseif($antiguedad >= 15 && $antiguedad <= 19){
+            $antiguedad = 6;
+
+        }elseif($antiguedad >= 20 && $antiguedad <= 24){
+            $antiguedad = 7;
+
+        }else{
+            $antiguedad = 8;
+        }
+        return view('Rhumanos/guiaVdatos',  compact('empleados','lguia','cEstados','edad','antiguedad'));
 
     }
 }

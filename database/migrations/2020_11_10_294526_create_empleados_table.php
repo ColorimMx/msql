@@ -64,6 +64,9 @@ class CreateEmpleadosTable extends Migration
             $table->string('EMAIL',6)->nullable();
             $table->string('TELEFONO_1',6)->nullable();
             $table->string('TELEFONO_2',6)->nullable();
+            $table->boolean('GUIA_I');
+            $table->boolean('GUIA_II');
+            $table->boolean('GUIA_III');
             $table->timestamps();
         });
     }

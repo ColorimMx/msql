@@ -76,6 +76,8 @@ class GuiaController extends Controller
 
     public function storeGrI(Request $request)
     {
+
+
         $guiaRIP1 = new Preguntas_Detalle_Guia();
         $guiaRIP2 = new Preguntas_Detalle_Guia();
         $guiaRIP3 = new Preguntas_Detalle_Guia();
