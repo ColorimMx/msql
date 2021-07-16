@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa70fa95-a3e4-4179-84c0-b70cb9c5a1e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GuiaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GuiaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/GuiaRVController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/GuiaRVController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_10_294526_create_empleados_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_10_294526_create_empleados_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Rhumanos/guiaVdatos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Rhumanos/guiaVdatos.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Preguntas_Detalle_Guia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Preguntas_Detalle_Guia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/resources/views/Rhumanos/nom35.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/routes/web.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -141,7 +146,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yito" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -204,6 +209,41 @@
       <workItem from="1612462961842" duration="6952000" />
       <workItem from="1612887017477" duration="5303000" />
       <workItem from="1613143188854" duration="1017000" />
+      <workItem from="1613231554455" duration="1425000" />
+      <workItem from="1615483369656" duration="207000" />
+      <workItem from="1616079698504" duration="58000" />
+      <workItem from="1616079812034" duration="692000" />
+      <workItem from="1616089604025" duration="475000" />
+      <workItem from="1617641041558" duration="768000" />
+      <workItem from="1618242816703" duration="3772000" />
+      <workItem from="1618265880422" duration="218000" />
+      <workItem from="1618266318859" duration="13000" />
+      <workItem from="1618324825975" duration="2441000" />
+      <workItem from="1618412765796" duration="1489000" />
+      <workItem from="1618934837923" duration="483000" />
+      <workItem from="1619101198279" duration="432000" />
+      <workItem from="1619186689339" duration="879000" />
+      <workItem from="1619194289487" duration="597000" />
+      <workItem from="1619448023168" duration="502000" />
+      <workItem from="1619533056478" duration="3144000" />
+      <workItem from="1619715958385" duration="541000" />
+      <workItem from="1619794807140" duration="164000" />
+      <workItem from="1620051734421" duration="343000" />
+      <workItem from="1620079806265" duration="1144000" />
+      <workItem from="1620139657617" duration="158000" />
+      <workItem from="1620146238700" duration="1170000" />
+      <workItem from="1620412882064" duration="2389000" />
+      <workItem from="1620749482931" duration="532000" />
+      <workItem from="1620830057442" duration="1215000" />
+      <workItem from="1620842640131" duration="599000" />
+      <workItem from="1620922271388" duration="5308000" />
+      <workItem from="1621003045979" duration="573000" />
+      <workItem from="1621261261910" duration="485000" />
+      <workItem from="1621348560590" duration="402000" />
+      <workItem from="1621436581079" duration="412000" />
+      <workItem from="1621531725265" duration="481000" />
+      <workItem from="1621536313563" duration="347000" />
+      <workItem from="1626470678544" duration="471000" />
     </task>
     <servers />
   </component>

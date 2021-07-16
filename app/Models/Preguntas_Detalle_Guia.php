@@ -9,4 +9,5 @@ class Preguntas_Detalle_Guia extends Model
 {
     use HasFactory;
     protected $table = "PREGUNTAS_DETALLE_GUIAS";
+    protected $dateFormat = 'Y-m-d\TH:i:s.v';
 }

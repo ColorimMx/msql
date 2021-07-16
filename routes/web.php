@@ -64,7 +64,7 @@ Route::get('guia1', function () {
     return view('Rhumanos/guiaR1');
 });
 
-Route::post('guiaI/create/{empleado}',[GuiaController::class,'storeGrI'])->name('guiaref1.storeGrI');
+Route::post('guiaI/create',[GuiaController::class,'storeGrI'])->name('guiaref1.storeGrI');
 
 //Guia de Referencia II
 
